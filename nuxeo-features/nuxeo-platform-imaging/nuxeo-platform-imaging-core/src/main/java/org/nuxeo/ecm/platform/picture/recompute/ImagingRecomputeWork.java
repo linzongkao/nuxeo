@@ -26,6 +26,10 @@ import org.nuxeo.ecm.core.api.DocumentModelList;
 import org.nuxeo.ecm.core.api.blobholder.BlobHolder;
 import org.nuxeo.ecm.core.work.AbstractWork;
 
+/**
+ * @deprecated since 11.1 use {@link RecomputeViewsAction} instead
+ */
+@Deprecated
 public class ImagingRecomputeWork extends AbstractWork {
 
     private static final long serialVersionUID = 1L;
